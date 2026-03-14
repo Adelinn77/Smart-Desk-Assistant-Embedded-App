@@ -44,3 +44,8 @@ Here is a look at the hardware setup:
 The logic is written entirely in **C++** using the Arduino IDE. 
 * The code is modularly structured, with separate functions handling different sensors (`readLight()`, `checkMotion()`, `monitorTemp()`).
 * The `loop()` function relies on non-blocking delay logic (using `millis()`) so that the lighting, cooling, and motion timers can run concurrently without freezing the microcontroller.
+
+
+## Author: 
+
+Adelinn77
